@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/563691f269.js" crossorigin="anonymous"></script>
+    <title>Brandon Held</title>
+</head>
+<body>
+    <div class="leftbox">
+        <div class="leftbox__header">    
+            <h1>Brandon Held</h1>
+            <p id="skills">Full Stack Software Engineer, Python, JavaScript, React, Node.js, Flask, Docker</p>
+            <div class="leftbox__icons">
+                <a href="https://www.linkedin.com/in/brandon-held12/">
+                    <i class="fab fa-linkedin fa-3x"></i>
+                </a>
+                <a href="https://github.com/brandonheld">
+                    <i class="fab fa-github fa-3x"></i>
+                </a>
+                <a href="https://angel.co/u/brandon-held">
+                    <i class="fab fa-angellist fa-3x"></i>
+                </a>
+            </div>
+        </div>
+        <form class="contactForm" name="contact" method="POST" data-netlify="true">
+            <h2>Contact Me</h2>
+            <input class="contactForm__input" type="text" name="name" placeholder="Your Name...">
+            <input class="contactForm__input" type="email" name="email" placeholder="Your Email...">
+            <textarea class="contactForm__input" name="message" rows='8' placeholder="Enter Message here..."></textarea>
+            <button class="contactForm__button" type="submit">Send</button>
+        </form>
+        <div class="leftbox__skills">
+            <h2>Skills</h2>
+            <div class="listSkills">
+                <ul>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Node.js</li>
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>Flask</li>
+                    <li>Express</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Postgres</li>
+                    <li>SQL</li>
+                    <li>Sequelize</li>
+                    <li>Sqlalchemy</li>
+                    <li>Docker</li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    <div class="rightBox">
+        <div class="rightBox__aboutMe">
+            <h2>About Me...</h2>
+            <p id="bio">I’m a passionate software developer with a deep desire to learn new technologies. 
+                Over the past year I have been sharpening my skills within JavaScript, Python, React, Node.js and Flask to list a few. 
+                In the past I have held high level leadership roles for the companies I have worked for, 
+                I also have a hard working and very customer friendly attitude. I believe even after any schooling I take on 
+                I will remain a student because in life I will never be done learning.</p>
+        </div>
+        <div class="rightBox__projects">
+            <h2 id='projectLable'>Projects</h2>
+            <div class="rightBox__project">
+                <img src="./projects/LonelyGamer.jpg" alt="Lonely Gamer">
+                <div class="rightBox__projectDes">
+                    <div id='projectLinks'>
+                        <a href="https://lonely-gamer.herokuapp.com/">
+                            <i class="fas fa-desktop fa-2x"></i>
+                        </a>
+                        <a href="https://github.com/brandonheld/lonelyGamer">
+                            <i class="fas fa-file-code fa-2x"></i>
+                        </a>
+                    </div>
+                    <ul>
+                        <li id='title'>Lonely Gamer: Allows users to match with other gamers to play with after viewing their profiles. </li>
+                        <li>Used socket.io to integrate the React-redux front end to the Flask backend creating a constant link between clients and the server.</li>
+                        <li>Implemented multi page sign-up form using React-redux state in order to store variables between react components. </li>
+                        <li>Implemented flask sessions to send a session cookie to the browser from the server through the api route to persist the user on refresh.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rightBox__project">
+                <img src="./projects/Dizneyplus.jpg" alt="Dizney-Plus">
+                <div class="rightBox__projectDes">
+                    <div id='projectLinks'>
+                        <a href="https://dizneyplus.herokuapp.com/">
+                            <i class="fas fa-desktop fa-2x"></i>
+                        </a>
+                        <a href="https://github.com/COrtaDev/Dizney-Plus">
+                            <i class="fas fa-file-code fa-2x"></i>
+                        </a>
+                    </div>
+                    <ul>
+                        <li id='title'>Dizney-Plus: Clone of popular video streaming service disneyplus.</li>
+                        <li>Conserved time by using Pug to dynamically render movie cards across multiple pages using queries handled by Express.</li>
+                        <li>Effectively communicated with team members using open communications and detailed stand up meetings. </li>
+                        <li>Accelerated seeding Node.js database by building custom script written in JavaScript to fetch data from movie api to a Sequelize seed file.</li>
+                        <li>Allowed users to view trailers of each movie upon selection by embedding a YouTube iframe to autoplay the selected movie or show to recreate the experience of streaming the actual content.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rightBox__project">
+                <img src="./projects/MoneyPit.jpg" alt="Money Pit">
+                <div class="rightBox__projectDes">
+                    <div id='projectLinks'>
+                        <a href="https://lonely-gamer.herokuapp.com/">
+                            <i class="fas fa-desktop fa-2x"></i>
+                        </a>
+                        <a href="https://github.com/brandonheld/lonelyGamer">
+                            <i class="fas fa-file-code fa-2x"></i>
+                        </a>
+                    </div>
+                    <ul>
+                        <li id='title'>Money Pit: Full stack Kickstater clone allowing users to create projects for crowdfunding and to back projects donating money.</li>
+                        <li>Designed a fully modular app using React components providing the ability to reuse components creating a light, streamlined code base minimizing deficiencies and improving the debugging process for future releases.</li>
+                        <li>Built a database by scraping Kickstarter with an available API then seeding JSON file to deploy an immersive experience mimicking Kickstarter.</li>
+                        <li>Designed a backend solution with RESTful JSON API architecture for clear and concise Redux dispatches to retrieve database information from the Redux state.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

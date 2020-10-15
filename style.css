@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: snow;
+    cursor: default;
+}
+h1, h2 {
+    color: #FE9920;
+    text-align: center;
+    margin: 5px;
+}
+textarea {
+    resize: none;
+    overflow-y: auto;
+    cursor: text;
+}
+body {
+    background-color: #292929;
+    display: flex;
+    
+}
+input {
+    cursor: text;
+}
+.fab, .fas {
+    cursor: pointer;
+}
+.leftbox {
+    width: 20vw;
+    max-width: 350px;
+    min-width: 185px;
+    margin-left: auto;
+    background-color: rgb(69, 69, 69);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.leftbox__header {
+    position: relative;
+    padding: 10px;
+}
+#skills {
+    text-align: center;
+}
+.leftbox__icons {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-around;
+}
+.fab:hover {
+    transform: scale(1.25);
+    transition-duration: 300ms;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+.fa-linkedin:hover {
+    color: #005f91;
+}
+.fa-github:hover, .fa-angellist:hover {
+    color: black;
+}
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+.contactForm__input {
+    margin-bottom: 20px;
+    background: transparent;
+    width: 90%;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #FE9920;
+}
+.contactForm__button {
+    width: 50%;
+    background: transparent;
+    border-style: solid;
+    border-color:  #FE9920;
+    cursor: pointer;
+}
+.rightBox {
+    width: 80vw;
+    max-width: 1750px;
+    margin-right: auto;
+}
+.rightBox__aboutMe {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bio {
+    width: 90%;
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 10px;
+    line-height: 1.5;
+    letter-spacing: .2rem;
+}
+img {
+    width: 50%;
+    max-width: 500px;
+}
+.rightBox__projects {
+    max-width: 1000px;
+    margin: 50px auto 25px;
+}
+#projectLable {
+    margin-bottom: 15px;
+}
+.rightBox__project {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    letter-spacing: .2rem;
+    border: 1px solid #FE9920;
+    padding: 5px;
+    margin-top: 50px;
+}
+#projectLinks{
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    margin-left: 20px;
+}
+li {
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+#title {
+    list-style: none;
+    text-align: center;
+}
+.listSkills > ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.fa-desktop, .fa-file-code {
+    color: rgb(85, 85, 85);
+}
+.fa-desktop:hover, .fa-file-code:hover {
+    color: snow;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgb(69, 69, 69); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px #FE9920; 
+}
