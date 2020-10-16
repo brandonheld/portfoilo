@@ -103,6 +103,8 @@ input {
 }
 img {
     height: 100%;
+    max-width: 500px;
+    max-height: 600px;
     margin: auto 0;
 }
 .rightBox__projects {
