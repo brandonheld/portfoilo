@@ -76,8 +76,7 @@ input {
     border-bottom: 2px solid #FE9920;
 }
 #captcha {
-    width: 90%;
-    padding: 5px;
+    width: 75%;
     margin-top: 15px;
 }
 .contactForm__button {
