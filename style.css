@@ -102,9 +102,8 @@ input {
     letter-spacing: .2rem;
 }
 img {
-    height: 100%;
-    max-width: 500px;
-    max-height: 600px;
+    width: 270px;
+    height: 270px;
     margin: auto 0;
 }
 .rightBox__projects {
@@ -122,7 +121,7 @@ img {
     letter-spacing: .2rem;
     border: 1px solid #FE9920;
     padding: 5px;
-    margin-top: 50px;
+    margin: 50px 10px 0;
     min-width: 790px;
 }
 #projectLinks{
