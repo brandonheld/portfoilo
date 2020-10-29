@@ -102,6 +102,7 @@ input {
     letter-spacing: .2rem;
 }
 img {
+    max-width: 280px;
     margin: auto 0;
 }
 .rightBox__projects {
