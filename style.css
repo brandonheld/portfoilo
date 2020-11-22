@@ -104,6 +104,8 @@ input {
 img {
     width: 280px;
     height: 280px;
+}
+.imgBox {
     margin: auto 0;
 }
 .rightBox__projects {
@@ -122,7 +124,6 @@ img {
     border: 1px solid #FE9920;
     padding: 5px;
     margin: 50px 10px 0;
-    min-width: 790px;
 }
 #projectLinks{
     display: flex;
@@ -164,4 +165,33 @@ li {
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     box-shadow: inset 0 0 6px #FE9920; 
+}
+
+@media screen and (max-width: 1350px) {
+    .rightBox__aboutMe {
+        margin: 100px auto 0;
+        max-width: 80%;
+    }
+    .rightBox__projects {
+        max-width: 80%;
+    }
+    .leftbox {
+        width: 25%;
+    }
+    .rightBox {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .rightBox__project {
+        display: inline-block;
+        overflow: hidden;
+    }
+    .imgBox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 15px 0;
+    }
 }
