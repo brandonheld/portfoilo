@@ -27,7 +27,7 @@ input {
 }
 .leftbox {
     width: 20vw;
-    max-width: 350px;
+    max-width: 380px;
     min-width: 185px;
     margin-left: auto;
     background-color: rgb(69, 69, 69);
